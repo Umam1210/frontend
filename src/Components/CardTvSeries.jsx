@@ -29,7 +29,7 @@ function Cardtv() {
             <Row xs={1} md={6} className="mx-2">
                 {films?.map((item, id) => {
                     return (
-                        <Col className="my-3" >
+                        <Col className="my-3 mx-5" >
                             <Card className="border-dark" style={{backgroundColor:"black"}}>
                                 <Link to={`/detail-film/${item.id}`}>
                                     <Card.Img variant="top" src={item.image} /></Link>

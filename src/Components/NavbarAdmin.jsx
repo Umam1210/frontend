@@ -21,8 +21,8 @@ function NavbarAdmin() {
   }
 
   return (
-    <div className='sticky-top d-flex'>
-      <Navbar expand="lg" style={{ backgroundColor: "black" }} className="w-100">
+    <div className=''>
+      <Navbar expand="lg" style={{ backgroundColor: "black" }} className="sticky-top d-flex w-100">
         <Container fluid>
           <div className='p-2 w-100 mx-3' >
             <Link to="/list-transaction">
