@@ -12,7 +12,7 @@ function CardMovies() {
         <div className="bg-dark">
             <h4 className="text-light ms-3 pt-3">Movies</h4>
             <Row xs={1} md={6} className="mx-2 bg-dark">
-                {data.map((item, id) => {
+                {data.filter((item) => item.category_id === 2).map((item, id) => {
                     return (
                         <Col className="my-3">
                             <Card>

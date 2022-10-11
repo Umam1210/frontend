@@ -48,7 +48,7 @@ function Movie() {
           </Button>{" "}
         </div>
       </div>
-    <Cardtv />
+    <CardMovies />
     </>
   );
 }
