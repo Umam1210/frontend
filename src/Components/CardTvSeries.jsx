@@ -27,7 +27,7 @@ function Cardtv() {
         <div className="" style={{backgroundColor:"black"}}>
             <h4 className="text-light ms-3 pt-3">TV Series</h4>
             <Row xs={1} md={6} className="mx-2">
-                {films?.map((item, id) => {
+                {films?.filter((item) => item.category_id === 1).map((item, id) => {
                     return (
                         <Col className="my-3 mx-5" >
                             <Card className="border-dark" style={{backgroundColor:"black"}}>
