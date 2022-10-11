@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import '../css/home.css'
 import NavbarUser from '../Components/NavbarUser';
 import Cardtv from '../Components/CardTvSeries';
+import CardMovies from '../Components/CardMovies';
 
 function MainMenu() {
   return (<>
@@ -45,6 +46,7 @@ function MainMenu() {
           </Button>{" "}
         </div>
       </div>
+      <CardMovies />
       <Cardtv />
     </div>
   </>
