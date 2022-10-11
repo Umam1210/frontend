@@ -23,6 +23,7 @@ import DetailfilmAdmin from './pages/Detail';
 import CardFilm from './admin/CardFilm';
 import { MdConnectWithoutContact } from 'react-icons/md';
 import  PrivateRoute  from './private/PrivateRoute';
+import CardMovies from './Components/CardMovies';
 
 
 
@@ -88,6 +89,18 @@ function App(props) {
       <Route path="/movies" element={
       <PrivateRoute>
         <Movie />
+      </PrivateRoute> } 
+      />
+      
+      <Route path="/film-tv-series" element={
+      <PrivateRoute>
+        <CardFilm />
+      </PrivateRoute> } 
+      />
+      
+      <Route path="/film-movies" element={
+      <PrivateRoute>
+        <CardMovies />
       </PrivateRoute> } 
       />
 
