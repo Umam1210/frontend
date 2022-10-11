@@ -25,7 +25,7 @@ function CardFilm() {
 
     return (
         <div className="">
-            <h4 className="text-light ms-3 pt-3">TV Series</h4>
+            <h4 className="text-light ms-3 pt-3"></h4>
             <Row xs={1} md={6} className="mx-2">
                 {films?.map((item, id) => {
                     return (
