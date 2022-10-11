@@ -29,7 +29,7 @@ function CardMovies() {
                 {films.filter((item) => item.category_id == 2).map((item, id) => {
                     return (
                         <Col className="my-3">
-                            <Card>
+                            <Card style={{backgroundColor:"black"}} className="text-light border-dark">
                                 <Link to={`/detail-film/${item.id}`}>
                                     <Card.Img variant="top" src={item.image} /></Link>
                                 <Card.Body>
