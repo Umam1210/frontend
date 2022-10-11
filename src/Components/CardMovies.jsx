@@ -30,13 +30,12 @@ function CardMovies() {
                     return (
                         <Col className="my-3">
                             <Card>
-                                <Link to="/detail-film">
+                                <Link to={`/detail-film/${item.id}`}>
                                     <Card.Img variant="top" src={item.image} /></Link>
                                 <Card.Body>
-                                    <Card.Title>{item.name}</Card.Title>
+                                    <Card.Title>{item.title}</Card.Title>
                                     <Card.Text>
-                                        This is
-                                    </Card.Text>
+                                        {item.year}                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
