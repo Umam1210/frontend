@@ -26,16 +26,12 @@ function ListFilmAdmin() {
                   Category
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="bg-dark" variant="dark">
-                <Link to="/film-tv-series">
                   <Dropdown.Item className="text-light">
                     TV Series
                   </Dropdown.Item>
-                </Link>
-                <Link to="/film-movies">
                   <Dropdown.Item className="text-light">
                     Movies
                   </Dropdown.Item>
-                </Link>
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -51,6 +47,7 @@ function ListFilmAdmin() {
           </div>
         </div>
         <h4 className="text-light ms-3 pt-3"></h4>
+       <CardFilm />
       </div>
     </>
   );
